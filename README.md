@@ -3,6 +3,11 @@
 This is a complimentary dataset of product metadata for the original [Amazon ESCI](https://github.com/amazon-science/esci-data) dataset.
 > ESCI is a large dataset of difficult search queries, released with the aim of fostering research in the area of semantic matching of queries and products. For each query, the dataset provides a list of up to 40 potentially relevant results, together with ESCI relevance judgements (Exact, Substitute, Complement, Irrelevant) indicating the relevance of the product to the query. Each query-product pair is accompanied by additional product information.
 
+## Data
+
+* Full dataset, 1.66M products, 3.4G [Zstd](https://github.com/facebook/zstd) compressed: [S3](https://esci-s.s3.amazonaws.com/esci.json.zst) [GDrive](https://drive.google.com/file/d/1HZLeUg61GWU3A6xyUEIw9AJtR-AwK5aw/view?usp=share_link)
+* 0.25% sample, 4400 products, 10M compressed: [Github LFS](https://github.com/shuttie/esci-s/raw/master/sample.json.gz)
+
 ## Motivation
 
 As an e-commerce dataset, the ESCI is focused on text information about products and queries, **leaving behavioral, numerical and categorical ranking features on the side**. The original product information includes the following fields:
