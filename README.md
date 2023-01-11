@@ -1,5 +1,8 @@
 # ESCI-S: extended metadata for Amazon ESCI dataset
 
+[![License: Apache 2](https://img.shields.io/badge/License-Apache2-green.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 This is a complimentary dataset of product metadata for the original [Amazon ESCI](https://github.com/amazon-science/esci-data) dataset.
 > ESCI is a large dataset of difficult search queries, released with the aim of fostering research in the area of semantic matching of queries and products. For each query, the dataset provides a list of up to 40 potentially relevant results, together with ESCI relevance judgements (Exact, Substitute, Complement, Irrelevant) indicating the relevance of the product to the query. Each query-product pair is accompanied by additional product information.
 
